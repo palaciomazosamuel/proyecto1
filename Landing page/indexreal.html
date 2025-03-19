@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pagina de artiulos futbol mas</title>
+</head>
+<style>
+    header{
+        background-color: gray;
+        color: black;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        
+    }
+    nav ul li {
+        margin-right: 20px; 
+    }
+  
+    nav ul {
+        list-style-type: none; 
+        display: flex;
+    }
+    nav{
+        align-items: center;
+        display:  flex;
+        background-color: aqua;
+        justify-content: center;
+        border-color: black;
+    }
+
+    a{
+        font-size: 40px;
+        color: black;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    #contact {
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        form {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #contact form div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            margin: 0.5rem;
+        }
+
+        input{
+            width: 10rem;
+            height: 1rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        textarea {
+            width: 20rem;
+            height: 5rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        .sub {
+            margin-top: 1rem;
+            border: 1px solid black;
+            background: none;
+            height: 2rem;
+            width: 8rem;
+            font-size: .9rem;
+        }
+
+        .sub:hover {
+            background-color: black;
+            color: white;
+            transition: 0.2s;
+        }
+        section{
+            background-color: gray;
+            border-radius: 10px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+</style>
+<body>
+    <header>
+        <h1>Una pagina de futbol mas </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="indexreal.html" >Inicio</a></li>
+            <li><a href="#camisas">Camisetas</a></li>
+            <li><a href="#Historia">Historia</a></li>
+            <li><a href="#contactenos">contactenos</a></li>
+            <li><a href="iniciar.html">iniciar sesion</a></li>
+            
+        </ul>
+    </nav>
+    <h2 >Camisetas</h2>
+    
+   <main id="camisas">     
+        <img src="milan.png" width="300px" height="200px">
+        <img src="madrid.png" width="300px" height="200px">
+        <img src="dortmund.png" width="300px" height="200px">
+        <img src="psg.png" width="300px" height="200px  ">
+   </main>
+   
+   <section class="about">
+    <h1 id="Historia">HISTORIA DEL FUTBOL</h1>
+    <p class="desc">El fútbol es uno de los deportes más populares del mundo. Es practicado en prácticamente todos los países del mundo, los cuales se dan cita cada cuatro años para disputarse la copa mundial, y mantienen a lo largo del año sus distintas ligas regulares.
+
+        Se estima que el fútbol tiene alrededor de 250 millones de jugadores en todo el mundo, y que moviliza alrededor de 1.800 millones de interesados y fanáticos en el globo entero. Es uno de los deportes olímpicos, y su jefatura internacional la ejerce la Federación Internacional de Asociaciones de Fútbol (o FIFA, por sus siglas en francés).
+        
+        Los orígenes antiguos de este deporte son inciertos, pero en el siglo III a. C. en China se practicaba un deporte similar. En este remoto antecedente del fútbol, los soldados de la Dinastía Han practicaban un ejercicio llamado ts’uh Kúh (también llamado luju o tsu chu), que consistía en arrojar una bola con los pies hacia una pequeña red. En algunas variantes, el jugador debía hacerlo mientras se defendía del ataque físico de sus rivales.
+        
+        Siglos después hubo prácticas más semejantes al fútbol moderno, como el kemari japonés, de tipo más ceremonial, en el que una pelota debía ser mantenida en el aire el mayor tiempo posible, pasándosela entre jugadores sin usar las manos.
+        
+    <br>
+    <br>
+    <br>
+
+        .</p>
+    </section>
+
+
+
+   <footer id="contactenos">
+    <form action="">
+        <div>
+            <label for="">Nombre: </label>
+            <input type="text" placeholder="Nombre">
+        </div>
+        <div>
+            <label for="">Email: </label>
+            <input type="email" name="" id="" placeholder="Email">
+        </div>
+        <div>
+            <label for="">Mensaje:</label>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="sub">
+    </form>
+</footer>
+
+</body>
+</html>
